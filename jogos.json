@@ -1,9 +1,21 @@
 {
-  "jogos": [
+  "jogos":[
+
     {
-      "nome": "GTA V",
-      "capa": "https://i.imgur.com/1.jpg",
-      "download": "https://seulink.com"
+      "nome":"GTA V",
+
+      "capa":"https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+
+      "download":"https://google.com"
+    },
+
+    {
+      "nome":"Red Dead Redemption 2",
+
+      "capa":"https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
+
+      "download":"https://google.com"
     }
+
   ]
 }

@@ -1,15 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-  <title>Elite PS4</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Elite PS4</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<h1>🎮 Elite PS4</h1>
+<header>
+  <div class="logo">ELITE PS4</div>
 
-<div id="jogos"></div>
+  <input type="text" id="search" placeholder="Buscar jogos...">
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Jogos</a>
+    <a href="#">Tutoriais</a>
+    <a href="#">Comunidade</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Grand Theft Auto V</h1>
+    <p>Jogo em destaque da semana</p>
+
+    <button>📥 Baixar</button>
+  </div>
+</section>
+
+<section class="row">
+
+  <h2>🔥 Jogos Populares</h2>
+
+  <div id="jogos" class="carousel"></div>
+
+</section>
 
 <script src="app.js"></script>
 
